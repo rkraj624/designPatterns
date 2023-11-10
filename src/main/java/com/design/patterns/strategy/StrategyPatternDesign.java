@@ -1,5 +1,7 @@
 package com.design.patterns.strategy;
-
+/*
+ * When you have multiple algorithms or strategies for solving a particular problem, and you want to choose the appropriate one at runtime. For example, sorting algorithms like quicksort, bubbleSort, and mergeSort can be implemented using the Strategy pattern.
+ */
 public class StrategyPatternDesign {
     public interface PaymentStrategy {
         void pay(int amount);
